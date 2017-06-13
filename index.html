@@ -1,0 +1,126 @@
+<document!>
+<html> 
+<head>       
+ <meta charset="UTF-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<script src='js/jquery-3.1.1.min.js'> </script>
+<script src='js/script.js'> </script>
+<link rel='stylesheet' href='bootstrap/css/bootstrap.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='bootstrap/css/weather-icons.min.css'>
+<link rel='stylesheet' href='bootstrap/font/weathericons-regular-webfont.eot'>
+<link rel='stylesheet' href='bootstrap/font/weathericons-regular-webfont.svg'>
+<link rel='stylesheet' href='bootstrap/font/weathericons-regular-webfont.ttf'>
+<link rel='stylesheet' href='bootstrap/font/weathericons-regular-webfont.woff'>
+<link rel='stylesheet' href='bootstrap/font/weathericons-regular-webfont.woff2'>
+<link rel='stylesheet' href='bootstrap/css/style.css'>
+
+</head>
+
+<body>
+<div class="container">
+<div class="row">
+<div class='box text'>
+
+ <div class='temp'>
+   <div id='switch'><span id='metric' class='selected'> C </span>|<span id='imperial'> F </span></div>
+   <i class='fa fa-thermometer' style='font-size:40px'></i>
+   <span id='temperature'></span>
+   <div id='degree'></div>
+
+ </div>
+
+ <div class='wind'>
+   <i class='wi wi-windy'></i>
+   <span id='wind'></span>
+   <br>
+   <i class ='fa fa-tint'></i>
+   <span id='humidity'></span>
+   <br>
+   <i class='fa fa-cloud'></i>
+   <span id='cloudiness'></span>    
+ </div> 
+ 
+ <div class='city_time'> 
+   <div id='city'></div>
+   <div id='time'></div>
+   
+ </div>
+ 
+
+  <div class='icon1'>
+    <p id='condition'></p>
+
+<div class="hidden icon sun-shower">
+  <div class="cloud"></div>
+  <div class="sun">
+    <div class="rays"></div>
+  </div>
+  <div class="rain"></div>
+</div>
+
+<div class="hidden icon thunder-storm">
+  <div class="cloud"></div>
+  <div class="lightning">
+    <div class="bolt"></div>
+    <div class="bolt"></div>
+  </div>
+</div>
+
+<div class="hidden icon cloudy">
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+</div>
+
+<div class="hidden icon flurries">
+  <div class="cloud"></div>
+  <div class="snow">
+    <div class="flake"></div>
+    <div class="flake"></div>
+  </div>
+</div>
+
+<div class="hidden icon sunny">
+  <div class="sun">
+    <div class="rays"></div>
+  </div>
+</div>
+
+<div class="hidden icon rainy">
+  <div class="cloud"></div>
+  <div class="rain"></div>
+</div>
+
+<div class='hidden icon night'> 
+  <div class='moon'></div>
+  <div class='stars'></div> 
+  <div class='stars'></div>
+  <div class='stars'></div>
+ </div>   
+
+
+
+
+
+
+
+ 
+  </div>
+ 
+ 
+
+
+</div>
+   
+  
+  </div>
+ </div>
+  
+ <div><p id='url' style='color:white'>he<p></div>
+
+
+
+
+</body>
+
+</html>    
